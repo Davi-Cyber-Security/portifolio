@@ -151,7 +151,7 @@ export default function Home() {
     },
     {
       titulo: 'Suporte Ticket',
-      descricao: 'Sistema para abrir ticket de uma empresa fictícia em tempo real.\nPara atender o ticket faça o login:\nUsuario: suporte\nPassword: Suporte#2556#\n\nPor se tratar de servidor gratuito, pode demorar um pouco. Mas depois fica eficiente e respostas rápidas.',
+      descricao: 'Sistema para abrir ticket de uma empresa fictícia em tempo real.\nPara atender o ticket faça o login: <br /> Usuario: suporte <br /> Password: Suporte#2556# <br /> <br /> Por se tratar de servidor gratuito, pode demorar um pouco. Mas depois fica eficiente e respostas rápidas.',
       tecnologias: ['Node.JS', 'REACT - Next.JS (^16.0.10)', 'JavaScript', 'API'],
       link: 'https://suporteticket.vercel.app/',
       destaque: true
@@ -187,7 +187,7 @@ export default function Home() {
 
       <section id="inicio" className={styles.hero}>
         <div className="container">
-          <div className={styles.heroConteudo}>
+          <div className={styles.heroConteudo}> 
             <div className={`${styles.heroTexto} fade-in`}>
               <h1 className={styles.heroTitulo}>
                 Olá, eu sou <span className={styles.destaque}>Davi Gabriel</span>
