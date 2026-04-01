@@ -153,8 +153,8 @@ export default function Home() {
       titulo: 'Suporte Ticket',
       descricao: `Sistema para abrir ticket de uma empresa fictícia em tempo real.
       Para atender o ticket faça o login: 
-      Usuario: <strong>suporte</strong> 
-      Password: <strong>Suporte#2556#</strong> 
+      Usuario: suporte 
+      Password: Suporte#2556# 
       Por se tratar de servidor gratuito, pode demorar um pouco. Mas depois fica eficiente e respostas rápidas.`,
       tecnologias: ['Node.JS', 'REACT - Next.JS (^16.0.10)', 'JavaScript', 'API'],
       link: 'https://suporteticket.vercel.app/',
@@ -200,7 +200,7 @@ export default function Home() {
                 Desenvolvedor Full Stack Junior
               </h2>
               <p className={styles.heroDescricao}>
-                Jovem de 20 anos apaixonado por tecnologia e inovação, sempre em busca de novos conhecimentos. 
+                Jovem de 21 anos apaixonado por tecnologia e inovação, sempre em busca de novos conhecimentos. 
                 Especializando em JavaScript, React, Node.js e desenvolvimento de soluções web modernas.
               </p>
               <div className={styles.heroBotoes}>
