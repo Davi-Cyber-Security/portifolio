@@ -23,7 +23,7 @@ export default function Home() {
   const habilidades = [
     { 
       nome: 'JavaScript', 
-      nivel: 85, 
+      nivel: 100, 
       icone: (
         <Image 
           src="/js-logo.svg" 
@@ -151,7 +151,11 @@ export default function Home() {
     },
     {
       titulo: 'Suporte Ticket',
-      descricao: 'Sistema para abrir ticket de uma empresa fictícia em tempo real.\nPara atender o ticket faça o login: <br /> Usuario: suporte <br /> Password: Suporte#2556# <br /> <br /> Por se tratar de servidor gratuito, pode demorar um pouco. Mas depois fica eficiente e respostas rápidas.',
+      descricao: `Sistema para abrir ticket de uma empresa fictícia em tempo real.
+      Para atender o ticket faça o login: 
+      Usuario: <strong>suporte</strong> 
+      Password: <strong>Suporte#2556#</strong> 
+      Por se tratar de servidor gratuito, pode demorar um pouco. Mas depois fica eficiente e respostas rápidas.`,
       tecnologias: ['Node.JS', 'REACT - Next.JS (^16.0.10)', 'JavaScript', 'API'],
       link: 'https://suporteticket.vercel.app/',
       destaque: true
@@ -237,7 +241,7 @@ export default function Home() {
           <div className={styles.sobreConteudo}>
             <div className={`${styles.sobreTexto} slide-in-left`}>
               <p>
-                Sou um jovem desenvolvedor de 20 anos, residente da cidade de Rio Verde - GO, atualmente cursando 
+                Sou um jovem desenvolvedor de 21 anos, residente da cidade de Rio Verde - GO, atualmente cursando 
                 <strong> Engenharia de Software</strong>. Minha paixão pela tecnologia me move a buscar 
                 conhecimento constantemente, explorando novas ferramentas e metodologias.
               </p>
@@ -261,7 +265,7 @@ export default function Home() {
                 <h3>Informações Pessoais</h3>
                 <ul className={styles.infoLista}>
                   <li><strong>Nome:</strong> Davi Gabriel Ferreira Batista</li>
-                  <li><strong>Idade:</strong> 20 anos</li>
+                  <li><strong>Idade:</strong> 21 anos</li>
                   <li><strong>Localização:</strong> Rio Verde - GO</li>
                   <li><strong>Formação:</strong> Engenharia de Software</li>
                   <li><strong>Perfil:</strong> Trabalho em equipe e <br />comunicação</li>
