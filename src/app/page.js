@@ -145,7 +145,7 @@ export default function Home() {
     {
       titulo: 'Busca Rápido Tratamento Clínico',
       descricao: 'Sistema de busca para tratamentos clínicos com servidor Node.js.',
-      tecnologias: ['Node.js', 'JavaScript', 'HTML', 'CSS'],
+      tecnologias: ['Node.js', 'JavaScript', 'HTML', 'CSS', "API"],
       link: 'https://consultacaclinicos.vercel.app/',
       destaque: false
     },
